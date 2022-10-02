@@ -1,0 +1,33 @@
+#resultat{
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+}
+table{
+    border: 3px black solid;
+    margin: auto;
+    background-color:brown;
+    border-collapse:collapse;
+    padding: auto;
+    width: 20%;
+
+    
+}
+h1{
+    margin-left: 20%;
+    color:coral;
+    
+ }
+
+td button{
+    width: "100%";
+    border: 3px black solid ;
+    padding: 10px;
+    background-color: blue;
+    color:darkorange;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+ 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> calculatrice </title>
+    <link rel="stylesheet" href="calculatrice.css">
+    <script  src="CALCULATRICE.js"></script>
+</head>
+<body>
+    <table>      
+        <tr>
+            <td colspan="4" > <h1><u>calculatrice</u></h1></td>
+        </tr>
+        <tr>
+            <td colspan="4" class="wass" ><input id="resultat"/></td>
+        </tr>
+        <tr>
+        <td ><button onclick="getsymbole('1')">1</button></td>
+        <td ><button onclick="getsymbole('2')">2</button></td>
+        <td ><button onclick="getsymbole('3')">3</button></td>
+        <td ><button onclick="getsymbole('/')">/</button></td>
+    </tr>
+         <tr>
+            <td ><button onclick="getsymbole('4')">4</button></td>
+            <td ><button onclick="getsymbole('5')">5</button></td>
+            <td ><button onclick="getsymbole('6')">6</button></td>
+            <td ><button onclick="getsymbole('*')">*</button></td>
+        </tr>
+        <tr>
+            <td ><button onclick="getsymbole('7')">7</button></td>
+            <td><button onclick="getsymbole('8')">8</button></td>
+            <td><button onclick="getsymbole('9')">9</button></td>
+            <td><button onclick="getsymbole('-')">-</button></td>
+        </tr>
+        <tr>
+            <td ><button onclick="getsymbole('<-')"><-</button></td>
+            <td><button onclick="getsymbole('0')">0</button></td>
+            <td><button onclick="getsymbole('+')">+</button></td>
+            <td><button onclick="calculer()">=</button></td>
+        </tr>
+        <tr>
+            <td ><button onclick="effacer()">CE</button></td>
+            <td><button onclick="getsymbole('')">+|-</button></td>
+            <td><button onclick="getsymbole(',')">,</button></td>
+            <td><button onclick="getsymbole('%')">%</button></td>
+        </tr>
+    </table>
+</body>
+</html>
